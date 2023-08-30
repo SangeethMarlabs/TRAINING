@@ -1,0 +1,27 @@
+﻿@{
+    ViewBag.Title = "Index1";
+}
+
+
+
+<h2>Index1</h2>
+<h1 style="background-color:crimson">Example of View Data</h1>
+<ol>
+    <li>View data is used to pass the data from controller to view</li>
+    <li>View data is derived from ViewDataDictionary class.</li>
+    <li>It is available for current request only</li>
+    <li>Requries TypeCasting for complex data type and check for null values to avoid to avoid error</li>
+    <li>It's redirection occurs ,then it's value becomes null'</li>
+</ol>
+
+
+
+<h2 style="background-color:blue">Error Message to be Displayed Below</h2>
+
+@{
+    if (ViewData["error"] != null)
+    {
+        <h2>@ViewData["error"]</h2>
+
+        }
+    }

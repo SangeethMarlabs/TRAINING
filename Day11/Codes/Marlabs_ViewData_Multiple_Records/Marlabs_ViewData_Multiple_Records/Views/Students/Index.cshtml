@@ -1,0 +1,35 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Students List</h2>
+<hr />
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Student Id</th>
+            <th>Student Name</th>
+            <th>Student Address</th>
+            <th>Student Email</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @{
+            var studList = ViewData["Students"] as List<Marlabs_ViewData_Multiple_Records.Models.Students>;
+            foreach (var student in studList)
+            {
+                <tr>
+                    <td>@student.StudentId</td>
+                    <td>@student.StudentName</td>
+                    <td>@student.StudentAddress</td>
+                    <td>@student.StudentEmail</td>
+                </tr>
+            }
+        }
+
+    </tbody>
+</table>
+

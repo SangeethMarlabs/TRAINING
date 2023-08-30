@@ -1,0 +1,24 @@
+using System;
+namspace Marlabs_LogicalOperators
+{
+	class Program
+	{
+
+	static void Main(string[] args)
+	{
+		Console.WriteLine("=================Logical operators==================");
+		bool a = true;
+		bool b = true;
+		bool result;
+		result = a && b;
+		Console.WriteLine($"The And operator would be :: {result1}");
+
+		result = a2 || b2;
+		Console.WriteLine($"The OR operator would be :: {result}");
+
+		result = a2 != b2;
+		Console.WriteLine($"The Not equal operator would be :: {result}");
+		 
+		Console.ReadLine();
+	}
+}

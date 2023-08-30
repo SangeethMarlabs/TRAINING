@@ -1,0 +1,7 @@
+D:\SAN\TRAINING\Day5\Programms\Marlabs_Property_Object_Ex2\Marlabs_Property_Object_Ex2\bin\Debug\Marlabs_Property_Object_Ex2.exe.config
+D:\SAN\TRAINING\Day5\Programms\Marlabs_Property_Object_Ex2\Marlabs_Property_Object_Ex2\bin\Debug\Marlabs_Property_Object_Ex2.exe
+D:\SAN\TRAINING\Day5\Programms\Marlabs_Property_Object_Ex2\Marlabs_Property_Object_Ex2\bin\Debug\Marlabs_Property_Object_Ex2.pdb
+D:\SAN\TRAINING\Day5\Programms\Marlabs_Property_Object_Ex2\Marlabs_Property_Object_Ex2\obj\Debug\Marlabs_Property_Object_Ex2.csproj.AssemblyReference.cache
+D:\SAN\TRAINING\Day5\Programms\Marlabs_Property_Object_Ex2\Marlabs_Property_Object_Ex2\obj\Debug\Marlabs_Property_Object_Ex2.csproj.CoreCompileInputs.cache
+D:\SAN\TRAINING\Day5\Programms\Marlabs_Property_Object_Ex2\Marlabs_Property_Object_Ex2\obj\Debug\Marlabs_Property_Object_Ex2.exe
+D:\SAN\TRAINING\Day5\Programms\Marlabs_Property_Object_Ex2\Marlabs_Property_Object_Ex2\obj\Debug\Marlabs_Property_Object_Ex2.pdb

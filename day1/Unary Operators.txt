@@ -1,0 +1,30 @@
+using System;
+namspace Marlabs_LogicalOperators
+{
+	class Program
+	{
+
+	static void Main(string[] args)
+	{
+		Console.WriteLine("=================Unary operators==================");		
+		int x = 10, res;
+		res = x++;
+		Console.WriteLine("==================================");
+		Console.WriteLine($"The value of x :: {x1}");
+		Console.WriteLine($"The value of res :: {res1}");
+
+		Console.WriteLine("==================================");
+		int x1 = 10, res1;
+		res1 = x1--;
+		Console.WriteLine($"The value of x1 :: {x1}");
+		Console.WriteLine($"The value of res1 :: {res1}");
+		
+
+		Console.WriteLine("==================================");
+		int x2 = 10, res2;
+		res2 = ++x2;
+		Console.WriteLine($"The value of x2 :: {x2}");
+		Console.WriteLine($"The value of res2 :: {res2}");
+		Console.ReadLine();
+	}
+}

@@ -1,0 +1,7 @@
+D:\SAN\TRAINING\Day8\Codes\Marlabs_Predicate\Marlabs_Predicate\bin\Debug\Marlabs_Predicate.exe.config
+D:\SAN\TRAINING\Day8\Codes\Marlabs_Predicate\Marlabs_Predicate\bin\Debug\Marlabs_Predicate.exe
+D:\SAN\TRAINING\Day8\Codes\Marlabs_Predicate\Marlabs_Predicate\bin\Debug\Marlabs_Predicate.pdb
+D:\SAN\TRAINING\Day8\Codes\Marlabs_Predicate\Marlabs_Predicate\obj\Debug\Marlabs_Predicate.csproj.AssemblyReference.cache
+D:\SAN\TRAINING\Day8\Codes\Marlabs_Predicate\Marlabs_Predicate\obj\Debug\Marlabs_Predicate.csproj.CoreCompileInputs.cache
+D:\SAN\TRAINING\Day8\Codes\Marlabs_Predicate\Marlabs_Predicate\obj\Debug\Marlabs_Predicate.exe
+D:\SAN\TRAINING\Day8\Codes\Marlabs_Predicate\Marlabs_Predicate\obj\Debug\Marlabs_Predicate.pdb

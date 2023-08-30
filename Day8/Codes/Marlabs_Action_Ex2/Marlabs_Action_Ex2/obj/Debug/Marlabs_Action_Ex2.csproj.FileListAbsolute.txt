@@ -1,0 +1,7 @@
+D:\SAN\TRAINING\Day8\Codes\Marlabs_Action_Ex2\Marlabs_Action_Ex2\bin\Debug\Marlabs_Action_Ex2.exe.config
+D:\SAN\TRAINING\Day8\Codes\Marlabs_Action_Ex2\Marlabs_Action_Ex2\bin\Debug\Marlabs_Action_Ex2.exe
+D:\SAN\TRAINING\Day8\Codes\Marlabs_Action_Ex2\Marlabs_Action_Ex2\bin\Debug\Marlabs_Action_Ex2.pdb
+D:\SAN\TRAINING\Day8\Codes\Marlabs_Action_Ex2\Marlabs_Action_Ex2\obj\Debug\Marlabs_Action_Ex2.csproj.AssemblyReference.cache
+D:\SAN\TRAINING\Day8\Codes\Marlabs_Action_Ex2\Marlabs_Action_Ex2\obj\Debug\Marlabs_Action_Ex2.csproj.CoreCompileInputs.cache
+D:\SAN\TRAINING\Day8\Codes\Marlabs_Action_Ex2\Marlabs_Action_Ex2\obj\Debug\Marlabs_Action_Ex2.exe
+D:\SAN\TRAINING\Day8\Codes\Marlabs_Action_Ex2\Marlabs_Action_Ex2\obj\Debug\Marlabs_Action_Ex2.pdb

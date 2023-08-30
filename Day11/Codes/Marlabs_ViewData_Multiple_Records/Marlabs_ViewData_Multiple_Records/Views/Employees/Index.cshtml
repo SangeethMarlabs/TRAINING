@@ -1,0 +1,30 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Employee List</h2>
+<hr />
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Employee Id</th>
+            <th>Employee Name</th>
+            <th>Employee Salary</th>
+        </tr>
+    </thead>
+    <tbody>
+        @{ 
+            var empList = ViewData["Employees"] as List<Marlabs_ViewData_Multiple_Records.Models.Employees>;
+            foreach (var employee in empList)
+            {
+                <tr>
+                    <td>@employee.EmpId</td>
+                    <td>@employee.EmpName</td>
+                    <td>@employee.EmpSalary</td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>

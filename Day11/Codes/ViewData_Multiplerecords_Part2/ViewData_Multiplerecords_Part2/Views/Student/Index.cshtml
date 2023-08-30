@@ -1,0 +1,31 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Student Id</th>
+            <th>Student Name</th>
+            <th>Student Email</th>
+            <th>Student Address</th>
+        </tr>
+    </thead>
+    <tbody>
+        @{ 
+            var studentList = ViewData["Students"] as List<ViewData_Multiplerecords_Part2.Models.Student>;
+            foreach(var student in studentList)
+            {
+                <tr>
+                    <td>@student.StudentId</td>
+                    <td>@student.StudentName</td>
+                    <td>@student.StudentEmail</td>
+                    <td>@student.StudentAddress</td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>

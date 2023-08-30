@@ -1,0 +1,7 @@
+D:\SAN\TRAINING\Day21\Codes\Marlabs_JoinOperator_Ex8\Marlabs_JoinOperator_Ex8\bin\Debug\Marlabs_JoinOperator_Ex8.exe.config
+D:\SAN\TRAINING\Day21\Codes\Marlabs_JoinOperator_Ex8\Marlabs_JoinOperator_Ex8\bin\Debug\Marlabs_JoinOperator_Ex8.exe
+D:\SAN\TRAINING\Day21\Codes\Marlabs_JoinOperator_Ex8\Marlabs_JoinOperator_Ex8\bin\Debug\Marlabs_JoinOperator_Ex8.pdb
+D:\SAN\TRAINING\Day21\Codes\Marlabs_JoinOperator_Ex8\Marlabs_JoinOperator_Ex8\obj\Debug\Marlabs_JoinOperator_Ex8.csproj.AssemblyReference.cache
+D:\SAN\TRAINING\Day21\Codes\Marlabs_JoinOperator_Ex8\Marlabs_JoinOperator_Ex8\obj\Debug\Marlabs_JoinOperator_Ex8.csproj.CoreCompileInputs.cache
+D:\SAN\TRAINING\Day21\Codes\Marlabs_JoinOperator_Ex8\Marlabs_JoinOperator_Ex8\obj\Debug\Marlabs_JoinOperator_Ex8.exe
+D:\SAN\TRAINING\Day21\Codes\Marlabs_JoinOperator_Ex8\Marlabs_JoinOperator_Ex8\obj\Debug\Marlabs_JoinOperator_Ex8.pdb

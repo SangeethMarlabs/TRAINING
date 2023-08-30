@@ -1,0 +1,39 @@
+﻿@model Marlabs_ViewMode1_Ex1.ViewModel.EmployeeDetailsViewModel
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<h2>Index</h2>
+<h2>Employee Details</h2>
+<head>
+    <title>
+        @Model.PageHeader
+    </title>
+</head>
+<table class="table table-bordered">
+    <tr>
+        <th>
+            @Model.PageTitle
+        </th>
+    </tr>
+    <tr>
+        <th>Employee Details</th>
+        <td>@Model.Employee.EmpID</td>
+        <td>@Model.Employee.EmpName</td>
+        <td>@Model.Employee.EmpGender</td>
+        <td>@Model.Employee.EmpDept</td>
+        <td>@Model.Employee.EmpSal</td>
+        <td>@Model.Employee.AddressId</td>
+    </tr>
+    <tr>
+        <th>Address Details</th>
+        <td>@Model.Address.AddressId</td>
+        <td>@Model.Address.District</td>
+        <td>@Model.Address.State</td>
+        <td>@Model.Address.Pincode</td>
+        <td>@Model.Address.Country</td>
+    </tr>
+</table>
+

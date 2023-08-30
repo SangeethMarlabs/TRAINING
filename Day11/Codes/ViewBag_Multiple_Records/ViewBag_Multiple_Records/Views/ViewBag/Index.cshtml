@@ -1,0 +1,40 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+<h2>List Of Countries</h2>
+<h2>Unordered List</h2>
+
+<ul>
+    @{ 
+        foreach(var country in ViewBag.Countries)
+            {
+                <li>@country</li>
+            }
+    }
+</ul>
+
+<h2>Ordered List</h2>
+<ol>
+    @{ 
+        foreach(var country in ViewBag.Countries)
+            {
+                <li>@country</li>
+            }
+    }
+</ol>
+
+<h2>Unorderd list with If Condition</h2>
+<ul>
+    @{ 
+        foreach(var country in ViewBag.Countries)
+            {
+                if (country == "India" || country == "USA")
+                {
+                    <li>@country</li>
+                }
+            }
+    }
+</ul>

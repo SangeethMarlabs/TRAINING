@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+ 
+<h2>Index</h2>
+
+<h2 style="background-color:cadetblue">Customer Id : @ViewData["CustomerId"]</h2>
+<h2 style="background-color:cadetblue">Customer Name : @ViewData["CustomerName"]</h2>
+<h2 style="background-color:cadetblue">Customer Address : @ViewData["CustomerAddress"]</h2>
+
+<h2>Customer Details</h2>
+
+@{ 
+    var cust = ViewData["Customer"] as Marlabs_SinglerecordViewData.Models.Customer;
+}            
+<h2>@cust.CustomerId</h2>
+<h2>@cust.CustomerName</h2>
+<h2>@cust.CustomerAddress</h2>

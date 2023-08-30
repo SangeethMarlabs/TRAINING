@@ -1,0 +1,7 @@
+D:\SAN\TRAINING\Day6\Codes\Marlabs_Generics\Marlabs_Generics\obj\Debug\Marlabs_Generics.csproj.AssemblyReference.cache
+D:\SAN\TRAINING\Day6\Codes\Marlabs_Generics\Marlabs_Generics\obj\Debug\Marlabs_Generics.csproj.CoreCompileInputs.cache
+D:\SAN\TRAINING\Day6\Codes\Marlabs_Generics\Marlabs_Generics\bin\Debug\Marlabs_Generics.exe.config
+D:\SAN\TRAINING\Day6\Codes\Marlabs_Generics\Marlabs_Generics\bin\Debug\Marlabs_Generics.exe
+D:\SAN\TRAINING\Day6\Codes\Marlabs_Generics\Marlabs_Generics\bin\Debug\Marlabs_Generics.pdb
+D:\SAN\TRAINING\Day6\Codes\Marlabs_Generics\Marlabs_Generics\obj\Debug\Marlabs_Generics.exe
+D:\SAN\TRAINING\Day6\Codes\Marlabs_Generics\Marlabs_Generics\obj\Debug\Marlabs_Generics.pdb

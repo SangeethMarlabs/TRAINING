@@ -1,0 +1,17 @@
+D:\SAN\TRAINING\Day17\Codes\Marlabs_OnionArchitecture_2\Services\bin\Debug\net5.0\Services.deps.json
+D:\SAN\TRAINING\Day17\Codes\Marlabs_OnionArchitecture_2\Services\bin\Debug\net5.0\Services.dll
+D:\SAN\TRAINING\Day17\Codes\Marlabs_OnionArchitecture_2\Services\bin\Debug\net5.0\ref\Services.dll
+D:\SAN\TRAINING\Day17\Codes\Marlabs_OnionArchitecture_2\Services\bin\Debug\net5.0\Services.pdb
+D:\SAN\TRAINING\Day17\Codes\Marlabs_OnionArchitecture_2\Services\obj\Debug\net5.0\Services.csproj.AssemblyReference.cache
+D:\SAN\TRAINING\Day17\Codes\Marlabs_OnionArchitecture_2\Services\obj\Debug\net5.0\Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\SAN\TRAINING\Day17\Codes\Marlabs_OnionArchitecture_2\Services\obj\Debug\net5.0\Services.AssemblyInfoInputs.cache
+D:\SAN\TRAINING\Day17\Codes\Marlabs_OnionArchitecture_2\Services\obj\Debug\net5.0\Services.AssemblyInfo.cs
+D:\SAN\TRAINING\Day17\Codes\Marlabs_OnionArchitecture_2\Services\obj\Debug\net5.0\Services.csproj.CoreCompileInputs.cache
+D:\SAN\TRAINING\Day17\Codes\Marlabs_OnionArchitecture_2\Services\obj\Debug\net5.0\Services.dll
+D:\SAN\TRAINING\Day17\Codes\Marlabs_OnionArchitecture_2\Services\obj\Debug\net5.0\ref\Services.dll
+D:\SAN\TRAINING\Day17\Codes\Marlabs_OnionArchitecture_2\Services\obj\Debug\net5.0\Services.pdb
+D:\SAN\TRAINING\Day17\Codes\Marlabs_OnionArchitecture_2\Services\bin\Debug\net5.0\Domain.dll
+D:\SAN\TRAINING\Day17\Codes\Marlabs_OnionArchitecture_2\Services\bin\Debug\net5.0\Infrastructure.dll
+D:\SAN\TRAINING\Day17\Codes\Marlabs_OnionArchitecture_2\Services\bin\Debug\net5.0\Domain.pdb
+D:\SAN\TRAINING\Day17\Codes\Marlabs_OnionArchitecture_2\Services\bin\Debug\net5.0\Infrastructure.pdb
+D:\SAN\TRAINING\Day17\Codes\Marlabs_OnionArchitecture_2\Services\obj\Debug\net5.0\Services.csproj.CopyComplete

@@ -1,0 +1,7 @@
+D:\SAN\TRAINING\Day22\Codes\Marlabs_InnerJoin_Ex1\Marlabs_InnerJoin_Ex1\bin\Debug\Marlabs_InnerJoin_Ex1.exe.config
+D:\SAN\TRAINING\Day22\Codes\Marlabs_InnerJoin_Ex1\Marlabs_InnerJoin_Ex1\bin\Debug\Marlabs_InnerJoin_Ex1.exe
+D:\SAN\TRAINING\Day22\Codes\Marlabs_InnerJoin_Ex1\Marlabs_InnerJoin_Ex1\bin\Debug\Marlabs_InnerJoin_Ex1.pdb
+D:\SAN\TRAINING\Day22\Codes\Marlabs_InnerJoin_Ex1\Marlabs_InnerJoin_Ex1\obj\Debug\Marlabs_InnerJoin_Ex1.csproj.AssemblyReference.cache
+D:\SAN\TRAINING\Day22\Codes\Marlabs_InnerJoin_Ex1\Marlabs_InnerJoin_Ex1\obj\Debug\Marlabs_InnerJoin_Ex1.csproj.CoreCompileInputs.cache
+D:\SAN\TRAINING\Day22\Codes\Marlabs_InnerJoin_Ex1\Marlabs_InnerJoin_Ex1\obj\Debug\Marlabs_InnerJoin_Ex1.exe
+D:\SAN\TRAINING\Day22\Codes\Marlabs_InnerJoin_Ex1\Marlabs_InnerJoin_Ex1\obj\Debug\Marlabs_InnerJoin_Ex1.pdb

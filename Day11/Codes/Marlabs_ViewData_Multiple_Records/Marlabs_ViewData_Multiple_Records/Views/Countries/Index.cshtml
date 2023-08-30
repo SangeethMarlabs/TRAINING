@@ -1,0 +1,28 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+<h2>View data by using for loop</h2>
+<h3>Unordered list </h3>>
+
+<ul>
+    @{
+        foreach (var country in (List<string>)ViewData["Country"])
+        {
+            <li>@country</li>
+        }
+    }
+</ul>
+<hr />
+
+<h3>Ordered list </h3>>
+<ol>
+    @{
+        foreach (var country in (List<string>)ViewData["Country"])
+        {
+            <li>@country</li>
+        }
+    }
+</ol>

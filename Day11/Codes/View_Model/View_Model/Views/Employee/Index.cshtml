@@ -1,0 +1,36 @@
+﻿@Model View_Model.ViewModel.EmployeeDetailsViewModel
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+<h2>Employee Details</h2>
+<head>
+    <title>
+        @Model.PageHeader
+    </title>
+</head>
+<table class="table table-bordered">
+    <tr>
+        <th>
+            @Model.PageTitle
+        </th>
+    </tr>
+    <tr>
+        <th>Employee Details</th>
+        <td>@Model.Employee.EmpId</td>
+        <td>@Model.Employee.EmpName</td>
+        <td>@Model.Employee.EmpGender</td>
+        <td>@Model.Employee.EmpDept</td>
+        <td>@Model.Employee.EmpSal</td>
+        <td>@Model.Employee.AddressId</td>
+    </tr>
+    <tr>
+        <th>Address Details</th>
+        <td>@Model.Address.AddressId</td>
+        <td>@Model.Address.City</td>
+        <td>@Model.Address.State</td>
+        <td>@Model.Address.PinCode</td>
+        <td>@Model.Address.Country</td>
+    </tr>
+</table>

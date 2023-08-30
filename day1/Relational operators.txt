@@ -1,0 +1,35 @@
+using System;
+namspace Marlabs_ArithemeticOperators
+{
+	class Program
+	{
+
+	static void Main(string[] args)
+	{
+		Console.WriteLine("=================Relational operators==================");
+		int a2 = 5;
+		int b2 = 10;
+		bool result1;
+		result = a2 > b2;
+		Console.WriteLine($"a2 is greater than b2 :: {result1}");
+
+		result = a2 < b2;
+		Console.WriteLine($"a2 is less than b2 :: {result}");
+
+		result = a2 >= b2;
+		Console.WriteLine($"a2 is greater than equal b2 :: {result}");
+
+		result = a2 <= b2;
+		Console.WriteLine($"a2 is less than equal b2 :: {result}");
+
+		int a4 = 5;
+		int b4 = 5;
+		result = a4 >= b4;
+		Console.WriteLine($"a4 is greater than equal b4 :: {result}");
+
+		result = a4 <= b4;
+		Console.WriteLine($"a4 is less than equal to b4 :: {result}");
+
+		Console.ReadLine();
+	}
+}

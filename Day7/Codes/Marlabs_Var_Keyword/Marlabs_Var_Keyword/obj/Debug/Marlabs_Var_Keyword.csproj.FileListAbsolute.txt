@@ -1,0 +1,7 @@
+D:\SAN\TRAINING\Day7\Codes\Marlabs_Var_Keyword\Marlabs_Var_Keyword\bin\Debug\Marlabs_Var_Keyword.exe.config
+D:\SAN\TRAINING\Day7\Codes\Marlabs_Var_Keyword\Marlabs_Var_Keyword\bin\Debug\Marlabs_Var_Keyword.exe
+D:\SAN\TRAINING\Day7\Codes\Marlabs_Var_Keyword\Marlabs_Var_Keyword\bin\Debug\Marlabs_Var_Keyword.pdb
+D:\SAN\TRAINING\Day7\Codes\Marlabs_Var_Keyword\Marlabs_Var_Keyword\obj\Debug\Marlabs_Var_Keyword.csproj.AssemblyReference.cache
+D:\SAN\TRAINING\Day7\Codes\Marlabs_Var_Keyword\Marlabs_Var_Keyword\obj\Debug\Marlabs_Var_Keyword.csproj.CoreCompileInputs.cache
+D:\SAN\TRAINING\Day7\Codes\Marlabs_Var_Keyword\Marlabs_Var_Keyword\obj\Debug\Marlabs_Var_Keyword.exe
+D:\SAN\TRAINING\Day7\Codes\Marlabs_Var_Keyword\Marlabs_Var_Keyword\obj\Debug\Marlabs_Var_Keyword.pdb

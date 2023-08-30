@@ -1,0 +1,7 @@
+D:\SAN\TRAINING\Day10\Codes\Marlabs_Customer\Marlabs_Customer\bin\Debug\Marlabs_Customer.exe.config
+D:\SAN\TRAINING\Day10\Codes\Marlabs_Customer\Marlabs_Customer\bin\Debug\Marlabs_Customer.exe
+D:\SAN\TRAINING\Day10\Codes\Marlabs_Customer\Marlabs_Customer\bin\Debug\Marlabs_Customer.pdb
+D:\SAN\TRAINING\Day10\Codes\Marlabs_Customer\Marlabs_Customer\obj\Debug\Marlabs_Customer.csproj.AssemblyReference.cache
+D:\SAN\TRAINING\Day10\Codes\Marlabs_Customer\Marlabs_Customer\obj\Debug\Marlabs_Customer.csproj.CoreCompileInputs.cache
+D:\SAN\TRAINING\Day10\Codes\Marlabs_Customer\Marlabs_Customer\obj\Debug\Marlabs_Customer.exe
+D:\SAN\TRAINING\Day10\Codes\Marlabs_Customer\Marlabs_Customer\obj\Debug\Marlabs_Customer.pdb

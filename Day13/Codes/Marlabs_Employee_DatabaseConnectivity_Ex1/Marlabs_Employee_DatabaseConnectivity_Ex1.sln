@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31911.196
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Marlabs_Employee_DatabaseConnectivity_Ex1", "Marlabs_Employee_DatabaseConnectivity_Ex1\Marlabs_Employee_DatabaseConnectivity_Ex1.csproj", "{D82E7E36-D5C7-4A6B-84B1-E16A657FD75E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D82E7E36-D5C7-4A6B-84B1-E16A657FD75E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D82E7E36-D5C7-4A6B-84B1-E16A657FD75E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D82E7E36-D5C7-4A6B-84B1-E16A657FD75E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D82E7E36-D5C7-4A6B-84B1-E16A657FD75E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6483D0C7-E7F6-43E6-9451-5D501670D949}
+	EndGlobalSection
+EndGlobal

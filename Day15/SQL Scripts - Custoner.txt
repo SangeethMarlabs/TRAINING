@@ -1,0 +1,64 @@
+select * from Customer;
+
+INSERT INTO Customer VALUES('Sangeeth','Kerala','9633337115')
+INSERT INTO Customer VALUES('Sreeshaila','Bangalore','9856321245')
+
+create procedure CustomerDetails
+as 
+begin 
+	select * from Customer
+end
+
+exec CustomerDetails
+
+
+create procedure GetCustomerById(@CustId int)
+as 
+begin 
+	select * from Customer where CustId=@CustId
+end
+
+exec GetCustomerById 2
+
+Create procedure [dbo].[AddNewCustomer]
+(
+	@CustName varchar(50),
+	@CustAddress varchar(50),
+	@CustContactNo varchar(50)
+)
+AS BEGIN
+	Insert into Customer(CustName, CustAddress, CustContactNo)
+	values(@CustName,@CustAddress,@CustContactNo)
+END
+
+exec [dbo].[AddNewCustomer] 'Anjum','Noida','8998654541';
+exec [dbo].[AddNewCustomer] 'Sai','AP','8965321245';
+
+
+create procedure [dbo].[UpdateCustomer]
+(
+	@CustId int,
+	@CustName varchar(50),
+	@CustAddress varchar(50),
+	@CustContactNo varchar(50)
+)
+AS BEGIN
+	Update Customer set 
+	CustName = @CustName,CustAddress=@CustAddress,CustContactNo=@CustContactNo
+	where CustId = @CustId
+END
+
+Exec [dbo].[UpdateCustomer] 4,'Venkat','Bangalore','899562341'
+
+
+
+create procedure [dbo].[DeleteCustomer]
+(
+	@CustId int
+)
+AS BEGIN
+	delete from Customer 
+	where CustId = @CustId
+END
+
+Exec [dbo].[DeleteCustomer] 4

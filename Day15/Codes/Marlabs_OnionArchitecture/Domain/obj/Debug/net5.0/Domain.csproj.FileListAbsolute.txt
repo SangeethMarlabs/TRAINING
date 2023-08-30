@@ -1,0 +1,15 @@
+D:\SAN\TRAINING\Day15\Codes\Marlabs_OnionArchitecture\Domain\bin\Debug\net5.0\Domain.deps.json
+D:\SAN\TRAINING\Day15\Codes\Marlabs_OnionArchitecture\Domain\bin\Debug\net5.0\Domain.runtimeconfig.json
+D:\SAN\TRAINING\Day15\Codes\Marlabs_OnionArchitecture\Domain\bin\Debug\net5.0\Domain.runtimeconfig.dev.json
+D:\SAN\TRAINING\Day15\Codes\Marlabs_OnionArchitecture\Domain\bin\Debug\net5.0\Domain.dll
+D:\SAN\TRAINING\Day15\Codes\Marlabs_OnionArchitecture\Domain\bin\Debug\net5.0\ref\Domain.dll
+D:\SAN\TRAINING\Day15\Codes\Marlabs_OnionArchitecture\Domain\bin\Debug\net5.0\Domain.pdb
+D:\SAN\TRAINING\Day15\Codes\Marlabs_OnionArchitecture\Domain\obj\Debug\net5.0\Domain.csproj.AssemblyReference.cache
+D:\SAN\TRAINING\Day15\Codes\Marlabs_OnionArchitecture\Domain\obj\Debug\net5.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\SAN\TRAINING\Day15\Codes\Marlabs_OnionArchitecture\Domain\obj\Debug\net5.0\Domain.AssemblyInfoInputs.cache
+D:\SAN\TRAINING\Day15\Codes\Marlabs_OnionArchitecture\Domain\obj\Debug\net5.0\Domain.AssemblyInfo.cs
+D:\SAN\TRAINING\Day15\Codes\Marlabs_OnionArchitecture\Domain\obj\Debug\net5.0\Domain.csproj.CoreCompileInputs.cache
+D:\SAN\TRAINING\Day15\Codes\Marlabs_OnionArchitecture\Domain\obj\Debug\net5.0\Domain.dll
+D:\SAN\TRAINING\Day15\Codes\Marlabs_OnionArchitecture\Domain\obj\Debug\net5.0\ref\Domain.dll
+D:\SAN\TRAINING\Day15\Codes\Marlabs_OnionArchitecture\Domain\obj\Debug\net5.0\Domain.pdb
+D:\SAN\TRAINING\Day15\Codes\Marlabs_OnionArchitecture\Domain\obj\Debug\net5.0\Domain.genruntimeconfig.cache

@@ -1,0 +1,6 @@
+D:\SAN\TRAINING\Day6\Codes\Marlabs_List_Collections_Ex2\Marlabs_List_Collections_Ex2\bin\Debug\Marlabs_List_Collections_Ex2.exe.config
+D:\SAN\TRAINING\Day6\Codes\Marlabs_List_Collections_Ex2\Marlabs_List_Collections_Ex2\bin\Debug\Marlabs_List_Collections_Ex2.exe
+D:\SAN\TRAINING\Day6\Codes\Marlabs_List_Collections_Ex2\Marlabs_List_Collections_Ex2\bin\Debug\Marlabs_List_Collections_Ex2.pdb
+D:\SAN\TRAINING\Day6\Codes\Marlabs_List_Collections_Ex2\Marlabs_List_Collections_Ex2\obj\Debug\Marlabs_List_Collections_Ex2.csproj.CoreCompileInputs.cache
+D:\SAN\TRAINING\Day6\Codes\Marlabs_List_Collections_Ex2\Marlabs_List_Collections_Ex2\obj\Debug\Marlabs_List_Collections_Ex2.exe
+D:\SAN\TRAINING\Day6\Codes\Marlabs_List_Collections_Ex2\Marlabs_List_Collections_Ex2\obj\Debug\Marlabs_List_Collections_Ex2.pdb

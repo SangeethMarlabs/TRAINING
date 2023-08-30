@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31911.196
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Marlabs_DependancyInjection", "Marlabs_DependancyInjection\Marlabs_DependancyInjection.csproj", "{A4269C29-093F-4DA6-8F45-0A92ED4D4541}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A4269C29-093F-4DA6-8F45-0A92ED4D4541}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4269C29-093F-4DA6-8F45-0A92ED4D4541}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4269C29-093F-4DA6-8F45-0A92ED4D4541}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4269C29-093F-4DA6-8F45-0A92ED4D4541}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {804BBC6B-3B6E-467C-B0D8-B8641AB7A2FE}
+	EndGlobalSection
+EndGlobal

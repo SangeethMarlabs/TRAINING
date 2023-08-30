@@ -1,0 +1,7 @@
+D:\SAN\TRAINING\Day8\Codes\Marlabs_AnonymousMethod\Marlabs_AnonymousMethod\bin\Debug\Marlabs_AnonymousMethod.exe.config
+D:\SAN\TRAINING\Day8\Codes\Marlabs_AnonymousMethod\Marlabs_AnonymousMethod\bin\Debug\Marlabs_AnonymousMethod.exe
+D:\SAN\TRAINING\Day8\Codes\Marlabs_AnonymousMethod\Marlabs_AnonymousMethod\bin\Debug\Marlabs_AnonymousMethod.pdb
+D:\SAN\TRAINING\Day8\Codes\Marlabs_AnonymousMethod\Marlabs_AnonymousMethod\obj\Debug\Marlabs_AnonymousMethod.csproj.AssemblyReference.cache
+D:\SAN\TRAINING\Day8\Codes\Marlabs_AnonymousMethod\Marlabs_AnonymousMethod\obj\Debug\Marlabs_AnonymousMethod.csproj.CoreCompileInputs.cache
+D:\SAN\TRAINING\Day8\Codes\Marlabs_AnonymousMethod\Marlabs_AnonymousMethod\obj\Debug\Marlabs_AnonymousMethod.exe
+D:\SAN\TRAINING\Day8\Codes\Marlabs_AnonymousMethod\Marlabs_AnonymousMethod\obj\Debug\Marlabs_AnonymousMethod.pdb

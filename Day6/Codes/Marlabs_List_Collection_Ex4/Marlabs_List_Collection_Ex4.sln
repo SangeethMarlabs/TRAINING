@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31911.196
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Marlabs_List_Collection_Ex4", "Marlabs_List_Collection_Ex4\Marlabs_List_Collection_Ex4.csproj", "{D70A2848-A60B-4263-9BD6-0AEC80E0E265}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D70A2848-A60B-4263-9BD6-0AEC80E0E265}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D70A2848-A60B-4263-9BD6-0AEC80E0E265}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D70A2848-A60B-4263-9BD6-0AEC80E0E265}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D70A2848-A60B-4263-9BD6-0AEC80E0E265}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BD0A9F03-F3E0-4475-B409-BB3AD12A25C0}
+	EndGlobalSection
+EndGlobal

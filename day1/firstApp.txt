@@ -1,0 +1,10 @@
+using System;
+namspace Marlabs_firstApplication
+{
+	class Program
+	{
+		static void Main(string[] args)
+		Console.WriteLine("Welcome to Marlabs team for .net Training");
+		Console.ReadLine();
+	}
+}

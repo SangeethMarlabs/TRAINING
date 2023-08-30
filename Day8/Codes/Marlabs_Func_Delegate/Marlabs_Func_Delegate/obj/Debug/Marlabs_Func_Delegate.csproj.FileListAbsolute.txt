@@ -1,0 +1,7 @@
+D:\SAN\TRAINING\Day8\Codes\Marlabs_Func_Delegate\Marlabs_Func_Delegate\bin\Debug\Marlabs_Func_Delegate.exe.config
+D:\SAN\TRAINING\Day8\Codes\Marlabs_Func_Delegate\Marlabs_Func_Delegate\bin\Debug\Marlabs_Func_Delegate.exe
+D:\SAN\TRAINING\Day8\Codes\Marlabs_Func_Delegate\Marlabs_Func_Delegate\bin\Debug\Marlabs_Func_Delegate.pdb
+D:\SAN\TRAINING\Day8\Codes\Marlabs_Func_Delegate\Marlabs_Func_Delegate\obj\Debug\Marlabs_Func_Delegate.csproj.AssemblyReference.cache
+D:\SAN\TRAINING\Day8\Codes\Marlabs_Func_Delegate\Marlabs_Func_Delegate\obj\Debug\Marlabs_Func_Delegate.csproj.CoreCompileInputs.cache
+D:\SAN\TRAINING\Day8\Codes\Marlabs_Func_Delegate\Marlabs_Func_Delegate\obj\Debug\Marlabs_Func_Delegate.exe
+D:\SAN\TRAINING\Day8\Codes\Marlabs_Func_Delegate\Marlabs_Func_Delegate\obj\Debug\Marlabs_Func_Delegate.pdb

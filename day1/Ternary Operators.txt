@@ -1,0 +1,21 @@
+using System;
+namspace Marlabs_TernaryOperators
+{
+	class Program
+	{
+
+	static void Main(string[] args)
+	{
+		Console.WriteLine("=================Ternary operators==================");		
+		int x = 5;
+		int y = 10;
+		int result;
+		result = x < y ? x : y;
+		Console.WriteLine($"The result would be :: {result"); //5
+
+		result = x > y ? x : y;
+		Console.WriteLine($"The result would be :: {result"); //10
+
+		Console.ReadLine();
+	}
+}

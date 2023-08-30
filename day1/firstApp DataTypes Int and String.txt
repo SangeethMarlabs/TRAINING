@@ -1,0 +1,50 @@
+using System;
+namspace Marlabs_Variables
+{
+	class Program
+	{
+		int i = 90;
+		Console.WriteLine("=================DataTypes==================");
+		Console.WriteLine("=================Int Data Types==================");
+		Console.WriteLine($"The Variable i would be :: {i}"); //$ denotes string interpolation
+		Console.WriteLine("The Variable i would be :: {0}",i);
+		Console.WriteLine("The Variable i would be" + i);
+
+		string str = "Marlabs";
+		Console.WriteLine("=================DataTypes==================");
+		Console.WriteLine("=================String Data Types==================");
+		Console.WriteLine($"The Variable str would be :: {str}"); //$ denotes string interpolation
+		Console.WriteLine("The Variable str would be :: {0}",str);
+		Console.WriteLine("The Variable str would be :: " + str);
+		
+		float f = 45.78f;
+		Console.WriteLine("=================DataTypes==================");
+		Console.WriteLine("=================float Data Types==================");
+		Console.WriteLine($"The Variable f would be :: {f}"); //$ denotes string interpolation
+		Console.WriteLine("The Variable f would be :: {0}",f);
+		Console.WriteLine("The Variable f would be :: " + f);
+		
+		double d1 = 457888.78666d;
+		Console.WriteLine("=================DataTypes==================");
+		Console.WriteLine("=================double Data Types==================");
+		Console.WriteLine($"The Variable d1 would be :: {d1}"); //$ denotes string interpolation
+		Console.WriteLine("The Variable d1 would be :: {0}",d1);
+		Console.WriteLine("The Variable d1 would be :: " + d1);
+
+		decimal de = 4578883788.786663855m;
+		Console.WriteLine("=================DataTypes==================");
+		Console.WriteLine("=================decimal Data Types==================");
+		Console.WriteLine($"The Variable de would be :: {de}"); //$ denotes string interpolation
+		Console.WriteLine("The Variable de would be :: {0}",de);
+		Console.WriteLine("The Variable de would be :: " + de);
+
+		char c = "c";
+		Console.WriteLine("=================DataTypes==================");
+		Console.WriteLine("=================char Data Types==================");
+		Console.WriteLine($"The Variable c would be :: {c}"); //$ denotes string interpolation
+		Console.WriteLine("The Variable c would be :: {0}",c);
+		Console.WriteLine("The Variable c would be :: " + c);
+
+		Console.ReadLine();
+	}
+}

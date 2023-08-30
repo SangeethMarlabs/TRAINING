@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "ELRCfz9EUUthT0CSe6YjLIokCXSqBjXIDpheIyF/mU+c1zDP8LTJHhcL/2DTbOW4cfnBo9XWaHINdGAhfw5Dpw==",
+  "success": true,
+  "projectFilePath": "D:\\SAN\\TRAINING\\Day23\\Codes\\Marlabs_SimpleAuthorizarion\\Marlabs_SimpleAuthorizarion\\Marlabs_SimpleAuthorizarion.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Sangeeth.Sudhakaran\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\Sangeeth.Sudhakaran\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Sangeeth.Sudhakaran\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\Sangeeth.Sudhakaran\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\Sangeeth.Sudhakaran\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\Sangeeth.Sudhakaran\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}

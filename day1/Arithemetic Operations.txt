@@ -1,0 +1,26 @@
+using System;
+namspace Marlabs_ArithemeticOperators
+{
+	class Program
+	{
+
+	static void Main(string[] args)
+	{
+		Console.WriteLine("=================Arithemetic operators==================");
+		int a = 160;
+		int b = 60;
+		int result = a + b;
+		Console.WriteLine($"The addition would be :: {result}");
+
+		result = a - b;
+		Console.WriteLine($"The substraction would be :: {result}");
+
+		result = a * b;
+		Console.WriteLine($"The multiplication would be :: {result}");
+
+		result = a / b;
+		Console.WriteLine($"The division would be :: {result}");
+
+		Console.ReadLine();
+	}
+}

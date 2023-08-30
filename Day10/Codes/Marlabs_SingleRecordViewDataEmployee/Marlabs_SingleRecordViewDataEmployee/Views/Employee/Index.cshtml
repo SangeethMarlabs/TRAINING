@@ -1,0 +1,32 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+<style>
+    h2{
+        background-color:chartreuse
+    }
+    h3 {
+        background-color: burlywood 
+    }
+    body {
+        background-color: burlywood
+    }
+</style>
+
+<h2>Employee data</h2>
+
+<h3>Emp Id : @ViewData["EmpId"]</h3>
+<h3>Emp Name : @ViewData["EmpName"]</h3>
+<h3>Emp Address1 : @ViewData["EmpAddress1"]</h3>
+<h3>Emp Address2 : @ViewData["EmpAddress2"]</h3>
+<h3>Emp Contact : @ViewData["EmpContact"]</h3>
+<h3>Emp Email : @ViewData["EmpEmail"]</h3>
+<h3>Emp Salary : @ViewData["EmpSal"]</h3>
+
+ @{ 
+     var emp = ViewData["Employee"] as Marlabs_SingleRecordViewDataEmployee.Models.Employee;
+ }
+
+<h3>Emp Id : @emp.EmpId </h3>
+<h3>EmpName : @emp.EmpName</h3>

@@ -1,0 +1,6 @@
+D:\SAN\TRAINING\Day21\Codes\Marlabs_ThenBy_Linq_Ex6\Marlabs_ThenBy_Linq_Ex6\obj\Debug\Marlabs_ThenBy_Linq_Ex6.csproj.CoreCompileInputs.cache
+D:\SAN\TRAINING\Day21\Codes\Marlabs_ThenBy_Linq_Ex6\Marlabs_ThenBy_Linq_Ex6\bin\Debug\Marlabs_ThenBy_Linq_Ex6.exe.config
+D:\SAN\TRAINING\Day21\Codes\Marlabs_ThenBy_Linq_Ex6\Marlabs_ThenBy_Linq_Ex6\bin\Debug\Marlabs_ThenBy_Linq_Ex6.exe
+D:\SAN\TRAINING\Day21\Codes\Marlabs_ThenBy_Linq_Ex6\Marlabs_ThenBy_Linq_Ex6\bin\Debug\Marlabs_ThenBy_Linq_Ex6.pdb
+D:\SAN\TRAINING\Day21\Codes\Marlabs_ThenBy_Linq_Ex6\Marlabs_ThenBy_Linq_Ex6\obj\Debug\Marlabs_ThenBy_Linq_Ex6.exe
+D:\SAN\TRAINING\Day21\Codes\Marlabs_ThenBy_Linq_Ex6\Marlabs_ThenBy_Linq_Ex6\obj\Debug\Marlabs_ThenBy_Linq_Ex6.pdb

@@ -1,0 +1,7 @@
+D:\SAN\TRAINING\Day10\Codes\Marlabs_DependancyInjection\Marlabs_DependancyInjection\bin\Debug\Marlabs_DependancyInjection.exe.config
+D:\SAN\TRAINING\Day10\Codes\Marlabs_DependancyInjection\Marlabs_DependancyInjection\bin\Debug\Marlabs_DependancyInjection.exe
+D:\SAN\TRAINING\Day10\Codes\Marlabs_DependancyInjection\Marlabs_DependancyInjection\bin\Debug\Marlabs_DependancyInjection.pdb
+D:\SAN\TRAINING\Day10\Codes\Marlabs_DependancyInjection\Marlabs_DependancyInjection\obj\Debug\Marlabs_DependancyInjection.csproj.AssemblyReference.cache
+D:\SAN\TRAINING\Day10\Codes\Marlabs_DependancyInjection\Marlabs_DependancyInjection\obj\Debug\Marlabs_DependancyInjection.csproj.CoreCompileInputs.cache
+D:\SAN\TRAINING\Day10\Codes\Marlabs_DependancyInjection\Marlabs_DependancyInjection\obj\Debug\Marlabs_DependancyInjection.exe
+D:\SAN\TRAINING\Day10\Codes\Marlabs_DependancyInjection\Marlabs_DependancyInjection\obj\Debug\Marlabs_DependancyInjection.pdb

@@ -1,0 +1,287 @@
+[11:53 AM] Saurabh Agarwal (Guest)
+ViewModel in MVC
+
+------------------
+
+In ASP.NET MVC, a single object may not contain all the necessary data required for the view.
+
+View may require different data model then in such situation we need a concept of view model. View Model in ASP.NET MVC Application is a model which contains more than one model data required for a particular view. 
+
+Example -1
+
+-------------
+
+Step-1
+
+----------
+
+namespace CDAC_11_10_2021_ViewModel.Models
+
+{​​​​​
+
+    public class Employee
+
+    {​​​​​
+
+        public int EmpId {​​​​​ get; set; }​​​​​
+
+        public string EmpName {​​​​​ get; set; }​​​​​
+
+        public string EmpGender {​​​​​ get; set; }​​​​​
+
+        public string EmpDept {​​​​​ get; set; }​​​​​
+
+        public float EmpSal {​​​​​ get; set; }​​​​​
+
+        public int AddressId {​​​​​ get; set; }​​​​​
+
+    }​​​​​
+
+}​​​​​ Step-2
+
+----------
+
+namespace CDAC_11_10_2021_ViewModel.Models
+
+{​​​​​
+
+    public class Address
+
+    {​​​​​
+
+        public int AddressId {​​​​​ get; set; }​​​​​
+
+        public string Country {​​​​​ get; set; }​​​​​
+
+        public string State {​​​​​ get; set; }​​​​​
+
+        public string City {​​​​​ get; set; }​​​​​
+
+        public int PinCode {​​​​​ get; set; }​​​​​
+
+    }​​​​​
+
+}​​​​​ 
+
+Step-3
+
+----------
+
+Create a Folder ViewModel
+
+---------------------------
+
+using CDAC_11_10_2021_ViewModel.Models; namespace CDAC_11_10_2021_ViewModel.ViewModel
+
+{​​​​​
+
+    public class EmployeeDetailsViewModel
+
+    {​​​​​
+
+        public Employee Employee {​​​​​ get; set; }​​​​​
+
+        public Address Address {​​​​​ get; set; }​​​​​
+
+        public string PageTitle {​​​​​ get; set; }​​​​​
+
+        public string PageHeader {​​​​​ get; set; }​​​​​
+
+    }​​​​​
+
+}​​​​​ 
+
+Step -4
+
+----------
+
+Create a Controller - EmployeeController
+
+----------------------------------------- using System.Collections.Generic;
+
+using System.Web.Mvc;
+
+using CDAC_11_10_2021_ViewModel.ViewModel;
+
+using CDAC_11_10_2021_ViewModel.Models; namespace CDAC_11_10_2021_ViewModel.Controllers
+
+{​​​​​
+
+    public class EmployeeController : Controller
+
+    {​​​​​
+
+        // GET: Employee
+
+        public ActionResult GetEmployeeDetails()
+
+        {​​​​​
+
+            List<EmployeeDetailsViewModel> lstEmployeeDetailsViewModel = new List<EmployeeDetailsViewModel>();             Employee objEmployee = new Employee()
+
+            {​​​​​
+
+                EmpId = 1,
+
+                EmpName = "Bulbuli",
+
+                EmpDept = "IT",
+
+                EmpGender = "Female",
+
+                EmpSal = 80000,
+
+                AddressId = 1001
+
+            }​​​​​;
+
+            Address objAddress = new Address()
+
+            {​​​​​
+
+                AddressId = 1001,
+
+                Country = "India",
+
+                State = "West Bengal",
+
+                City = "Kolkatta",
+
+                PinCode = 4008
+
+            }​​​​​;             EmployeeDetailsViewModel objEmployeeDetailsViewModel = new EmployeeDetailsViewModel()
+
+            {​​​​​
+
+                Employee = objEmployee,
+
+                Address = objAddress,
+
+                PageHeader = "Employee Details",
+
+                PageTitle = "Employee Details"
+
+            }​​​​​;
+
+            lstEmployeeDetailsViewModel.Add(objEmployeeDetailsViewModel); 
+
+            Employee objEmployee1 = new Employee()
+
+            {​​​​​
+
+                EmpId = 2,
+
+                EmpName = "Kavitha",
+
+                EmpDept = "IT",
+
+                EmpGender = "Female",
+
+                EmpSal = 70000,
+
+                AddressId = 1002
+
+            }​​​​​;
+
+            Address objAddress1 = new Address()
+
+            {​​​​​
+
+                AddressId = 1002,
+
+                Country = "India",
+
+                State = "Maharasthra",
+
+                City = "Pune",
+
+                PinCode = 4008
+
+            }​​​​​;             EmployeeDetailsViewModel objEmployeeDetailsViewModel1 = new EmployeeDetailsViewModel()
+
+            {​​​​​
+
+                Employee = objEmployee1,
+
+                Address = objAddress1,
+
+                PageHeader = "Employee Details",
+
+                PageTitle = "Employee Details"
+
+            }​​​​​;
+
+            lstEmployeeDetailsViewModel.Add(objEmployeeDetailsViewModel1);
+
+            return View(lstEmployeeDetailsViewModel);
+
+        }​​​​​
+
+    }​​​​​
+
+}​​​​​ 
+
+Step - 5
+
+------------ Create a Index- Details
+
+-------------------------
+
+@model   IEnumerable<CDAC_11_10_2021_ViewModel.ViewModel.EmployeeDetailsViewModel> @{​​​​​
+
+    ViewBag.Title = "GetEmployeeDetails";
+
+}​​​​​ <h2>Employee Details</h2> 
+
+<head>
+
+</head>
+
+<body>
+
+    <table class="table">
+
+        @{​​​​​
+
+            foreach (var item in Model)
+
+            {​​​​​
+
+                <tr>
+
+                    <th>Employee Details</th>
+
+                    <td>@item.Employee.EmpId</td>
+
+                    <td>@item.Employee.EmpName</td>
+
+                    <td>@item.Employee.EmpGender </td>
+
+                    <td>@item.Employee.EmpSal</td>
+
+                    <td>@item.Employee.EmpDept</td>
+
+                </tr>
+
+                <tr>
+
+                    <th>Address Detail</th>
+
+                    <td>@item.Address.AddressId</td>
+
+                    <td>@item.Address.Country</td>
+
+                    <td>@item.Address.State </td>
+
+                    <td>@item.Address.City</td>
+
+                    <td>@item.Address.PinCode</td>
+
+                </tr>
+
+            }​​​​​
+
+        }​​​​​     </table>
+
+</body>
+

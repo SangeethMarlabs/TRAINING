@@ -1,0 +1,7 @@
+D:\SAN\TRAINING\Day21\Codes\Marlabs_OfTypeOperator\Marlabs_OfTypeOperator\bin\Debug\Marlabs_OfTypeOperator.exe.config
+D:\SAN\TRAINING\Day21\Codes\Marlabs_OfTypeOperator\Marlabs_OfTypeOperator\bin\Debug\Marlabs_OfTypeOperator.exe
+D:\SAN\TRAINING\Day21\Codes\Marlabs_OfTypeOperator\Marlabs_OfTypeOperator\bin\Debug\Marlabs_OfTypeOperator.pdb
+D:\SAN\TRAINING\Day21\Codes\Marlabs_OfTypeOperator\Marlabs_OfTypeOperator\obj\Debug\Marlabs_OfTypeOperator.csproj.AssemblyReference.cache
+D:\SAN\TRAINING\Day21\Codes\Marlabs_OfTypeOperator\Marlabs_OfTypeOperator\obj\Debug\Marlabs_OfTypeOperator.csproj.CoreCompileInputs.cache
+D:\SAN\TRAINING\Day21\Codes\Marlabs_OfTypeOperator\Marlabs_OfTypeOperator\obj\Debug\Marlabs_OfTypeOperator.exe
+D:\SAN\TRAINING\Day21\Codes\Marlabs_OfTypeOperator\Marlabs_OfTypeOperator\obj\Debug\Marlabs_OfTypeOperator.pdb

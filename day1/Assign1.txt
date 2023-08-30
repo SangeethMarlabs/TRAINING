@@ -1,0 +1,158 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Marlabs_EnumAssignment
+{
+    class Program
+    {
+        public enum Programming { Dotnet, AWS, C, MVC, Angular, DotNetCore,Azure }
+        public enum Months { January, February, March, April, May, June, July, August, September, October, November, December}
+        static void Main(string[] args)
+        {
+            Console.WriteLine("---------------------------------------");
+            Console.WriteLine("1.Print Indexs of Enum");
+            Console.WriteLine("---------------------------------------");
+
+            Console.WriteLine($"Dotnet-{(int)Programming.Dotnet}");
+            Console.WriteLine($"AWS-{(int)Programming.AWS}");
+            Console.WriteLine($"C-{(int)Programming.C}");
+            Console.WriteLine($"MVC-{(int)Programming.MVC}");
+            Console.WriteLine($"Angular-{(int)Programming.Angular}");
+            Console.WriteLine($"DotNetCore-{(int)Programming.DotNetCore }");
+            Console.WriteLine($"Azure-{(int)Programming.Azure}");
+            
+            Console.WriteLine("---------------------------------------");
+            Console.WriteLine("2.Print Names in Enum - foreach");
+            Console.WriteLine("---------------------------------------");
+
+            foreach (String s in Enum.GetNames(typeof(Programming)))
+            {
+                Console.WriteLine($"{s}");
+            }
+
+            Console.WriteLine("---------------------------------------");
+            Console.WriteLine("3.Print Names and Index - Enum.GetName");
+            Console.WriteLine("---------------------------------------");
+
+            int en = (int)Programming.Dotnet;
+            String str = Enum.GetName(typeof(Programming ), en);
+            Console.WriteLine($"Index - {en} | Value - {str}");
+
+            en = (int)Programming.AWS;
+            str = Enum.GetName(typeof(Programming ), en);
+            Console.WriteLine($"Index - {en} | Value - {str}");
+
+            en = (int)Programming.C;
+            str = Enum.GetName(typeof(Programming ), en);
+            Console.WriteLine($"Index - {en} | Value - {str}");
+
+            en = (int)Programming.MVC;
+            str = Enum.GetName(typeof(Programming ), en);
+            Console.WriteLine($"Index - {en} | Value - {str}");
+
+            en = (int)Programming.Angular;
+            str = Enum.GetName(typeof(Programming ), en);
+            Console.WriteLine($"Index - {en} | Value - {str}");
+
+            en = (int)Programming.DotNetCore;
+            str = Enum.GetName(typeof(Programming ), en);
+            Console.WriteLine($"Index - {en} | Value - {str}");
+
+            en = (int)Programming.Azure;
+            str = Enum.GetName(typeof(Programming ), en);
+            Console.WriteLine($"Index - {en} | Value - {str}");
+
+
+            Console.WriteLine("+++++++++++++++++++++++++++++++++++++++");
+            Console.WriteLine("+++++++++++++++++++++++++++++++++++++++");
+            Console.WriteLine("+++++++++++++++++++++++++++++++++++++++");
+
+
+            Console.WriteLine("---------------------------------------");
+            Console.WriteLine("1.Print Indexs of Enum Month");
+            Console.WriteLine("---------------------------------------");
+
+            Console.WriteLine($"January-{(int)Months.January}");
+            Console.WriteLine($"February-{(int)Months.February}");
+            Console.WriteLine($"March-{(int)Months.March}");
+            Console.WriteLine($"April-{(int)Months.April}");
+            Console.WriteLine($"May-{(int)Months.May}");
+            Console.WriteLine($"June-{(int)Months.June}");
+            Console.WriteLine($"July-{(int)Months.July}");
+            Console.WriteLine($"August-{(int)Months.August}");
+            Console.WriteLine($"September-{(int)Months.September}");
+            Console.WriteLine($"October-{(int)Months.October}");
+            Console.WriteLine($"November-{(int)Months.November}");
+            Console.WriteLine($"December-{(int)Months.December}");
+
+
+
+            Console.WriteLine("---------------------------------------");
+            Console.WriteLine("2.Print Names in Enum Month - foreach");
+            Console.WriteLine("---------------------------------------");
+
+            foreach (String s in Enum.GetNames(typeof(Months)))
+            {
+                Console.WriteLine($"{s}");
+            }
+
+            Console.WriteLine("---------------------------------------");
+            Console.WriteLine("3.Print Names and Index - Enum month .GetName");
+            Console.WriteLine("---------------------------------------");
+
+            int en1 = (int)Months.January;
+            String str1 = Enum.GetName(typeof(Months), en1);
+            Console.WriteLine($"Index - {en1} | Value - {str1}"); 
+
+            en1 = (int)Months.February;
+            str1 = Enum.GetName(typeof(Months), en1);
+            Console.WriteLine($"Index - {en1} | Value - {str1}"); 
+
+            en1 = (int)Months.March;
+            str1 = Enum.GetName(typeof(Months), en1);
+            Console.WriteLine($"Index - {en1} | Value - {str1}"); 
+
+            en1 = (int)Months.April;
+            str1 = Enum.GetName(typeof(Months), en1);
+            Console.WriteLine($"Index - {en1} | Value - {str1}"); 
+
+            en1 = (int)Months.May;
+            str1 = Enum.GetName(typeof(Months), en1);
+            Console.WriteLine($"Index - {en1} | Value - {str1}"); 
+
+            en1 = (int)Months.June;
+            str1 = Enum.GetName(typeof(Months), en1);
+            Console.WriteLine($"Index - {en1} | Value - {str1}"); 
+
+            en1 = (int)Months.July;
+            str1 = Enum.GetName(typeof(Months), en1);
+            Console.WriteLine($"Index - {en1} | Value - {str1}"); 
+
+            en1 = (int)Months.August;
+            str1 = Enum.GetName(typeof(Months), en1);
+            Console.WriteLine($"Index - {en1} | Value - {str1}"); 
+
+            en1 = (int)Months.September;
+            str1 = Enum.GetName(typeof(Months), en1);
+            Console.WriteLine($"Index - {en1} | Value - {str1}"); 
+
+            en1 = (int)Months.October;
+            str1 = Enum.GetName(typeof(Months), en1);
+            Console.WriteLine($"Index - {en1} | Value - {str1}"); 
+
+            en1 = (int)Months.November;
+            str1 = Enum.GetName(typeof(Months), en1);
+            Console.WriteLine($"Index - {en1} | Value - {str1}"); 
+
+            en1 = (int)Months.December;
+            str1 = Enum.GetName(typeof(Months), en1);
+            Console.WriteLine($"Index - {en1} | Value - {str1}"); 
+
+
+            Console.ReadLine();
+        }
+    }
+}

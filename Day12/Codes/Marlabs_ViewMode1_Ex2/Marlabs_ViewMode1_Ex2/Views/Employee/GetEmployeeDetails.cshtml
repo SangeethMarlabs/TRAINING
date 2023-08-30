@@ -1,0 +1,31 @@
+﻿@model IEnumerable<Marlabs_ViewMode1_Ex2.ViewModel.EmployeeDetailsViewModel>
+@{
+    ViewData["Title"] = "GetEmployeeDetails";
+}
+<h1>Marlabs Employee List</h1>
+<body>
+    <table class="table">
+        @{
+        foreach (var item in Model)
+        {
+            <tr>
+                <th>Employee Details</th>
+                <td>@item.Employee.EmpID</td>
+                <td>@item.Employee.EmpName</td>
+                <td>@item.Employee.EmpGender </td>
+                <td>@item.Employee.EmpSal</td>
+                <td>@item.Employee.EmpDept</td>
+            </tr>
+            <tr>
+                <th>Address Detail</th>
+                <td>@item.Address.AddressId</td>
+                <td>@item.Address.Country</td>
+                <td>@item.Address.State </td>
+                <td>@item.Address.Country</td>
+                <td>@item.Address.Pincode</td>
+            </tr>
+        }
+        }​​​​​    
+    </table>
+</body>
+

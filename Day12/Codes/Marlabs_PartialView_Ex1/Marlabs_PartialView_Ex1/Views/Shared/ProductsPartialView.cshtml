@@ -1,0 +1,33 @@
+﻿@model IEnumerable<Marlabs_PartialView_Ex1.Models.Products>
+@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+<body>
+    <table class="table">
+        <thead>
+
+            <tr>
+                <th>@Html.DisplayNameFor(model => model.ProductId)</th>
+                <th>@Html.DisplayNameFor(model => model.ProductName)</th>
+                <th>@Html.DisplayNameFor(model => model.ProductCategory)</th>
+                <th>@Html.DisplayNameFor(model => model.ProductDecscription)</th>
+                <th>@Html.DisplayNameFor(model => model.ProductPrice)</th>
+            </tr>
+        </thead>
+        <tbody>
+            @{
+                foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@Html.DisplayFor(modelItem => item.ProductId)</td>
+                        <td>@Html.DisplayFor(modelItem => item.ProductName)</td>
+                        <td>@Html.DisplayFor(modelItem => item.ProductCategory)</td>
+                        <td>@Html.DisplayFor(modelItem => item.ProductDecscription)</td>
+                        <td>@Html.DisplayFor(modelItem => item.ProductPrice)</td>
+                    </tr>
+                }
+            }
+
+        </tbody>
+    </table>
+</body> 

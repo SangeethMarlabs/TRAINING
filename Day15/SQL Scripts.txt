@@ -1,0 +1,69 @@
+select * from Employee;
+
+INSERT INTO Employee VALUES('Sangeeth','28','Male','Kerala','9633337115')
+INSERT INTO Employee VALUES('Sreeshaila','25','Male','Bangalore','9856321245')
+
+create procedure EmployeeDetails
+as 
+begin 
+	select * from Employee
+end
+
+exec EmployeeDetails
+
+
+create procedure GetEmployeeById(@EmpId int)
+as 
+begin 
+	select * from Employee where EmpId=@EmpId
+end
+
+exec GetEmployeeById 2
+
+Create procedure [dbo].[AddNewEmpDetails]
+(
+	@EmpName varchar(50),
+	@EmpAge varchar(50),
+	@EmpGender varchar(50),
+	@EmpAddress varchar(50),
+	@EmpContactNo varchar(50)
+)
+AS BEGIN
+	Insert into Employee (EmpName,EmpAge, EmpGender, EmpAddress, EmpContactNo)
+	values(@EmpName,@EmpAge,@EmpGender,@EmpAddress,@EmpContactNo)
+END
+
+exec [dbo].[AddNewEmpDetails] 'Anjum',21,'Female','Noida','8998654541';
+exec [dbo].[AddNewEmpDetails] 'Sai',22,'Male','AP','8965321245';
+
+
+create procedure [dbo].[UpdateEmpDetails]
+(
+	@EmpId int,
+	@EmpName varchar(50),
+	@EmpAge varchar(50),
+	@EmpGender varchar(50),
+	@EmpAddress varchar(50),
+	@EmpContactNo varchar(50)
+)
+AS BEGIN
+	Update Employee set 
+	EmpName = @EmpName, EmpAge=@EmpAge, EmpGender=@EmpGender,EmpAddress=@EmpAddress,EmpContactNo=@EmpContactNo
+	where EmpId = @EmpId
+END
+
+Exec [dbo].[UpdateEmpDetails] 4,'Venkat',23,'Male','Bangalore','899562341'
+
+
+
+create procedure [dbo].[DeleteEmpDetails]
+(
+	@EmpId int
+)
+AS BEGIN
+	delete from Employee 
+	where EmpId = @EmpId
+END
+
+Exec [dbo].[DeleteEmpDetails] 4
+
